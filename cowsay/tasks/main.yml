@@ -1,2 +1,3 @@
 ---
 # tasks file for cowsay
+- include: cowsay.yml

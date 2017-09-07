@@ -1,0 +1,6 @@
+---
+
+- name: Install required packages for cowsay
+  package:
+    name: cowsay
+    state: present
