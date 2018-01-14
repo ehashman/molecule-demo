@@ -2,6 +2,9 @@
 
 Let's learn how to use Molecule!
 
+The recording of this talk and demo is available on the [AnsibleFest 2017
+website](https://www.ansible.com/infastructure-testing-with-molecule).
+
 ## Installation
 
 We'll need a working python installation (including development headers),
