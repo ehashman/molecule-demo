@@ -10,8 +10,8 @@ def test_cowsay_installed(Package):
     assert p.is_installed
 
 
-def test_cowsay(Command):
-    cmd = Command('cowsay \'hello world!\'')
+def test_cowsay(host):
+    cmd = host.run('cowsay \'hello world!\'')
     expected = (' ______________\n'
                 '< hello world! >\n'
                 ' --------------\n'
